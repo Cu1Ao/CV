@@ -37,41 +37,51 @@ main: #简历主要内容，
   - title: 南昌大学
     duration: "2019年9月 - 2022年6月"
     sub: 南昌大学
-    detail: 计算机科学与技术/硕士研究生
+    detail: 计算机科学与技术/硕士研究生（三年制）
+    lesson: 方向：虚拟化/深度学习/FPGA(Xilinx Pynq框架)
 
 - type: skills
-  # name: "技能"
+  name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - Python
+    - C
+  - title: 框架语言
+    items:
+    - PyTorch
+    - TensorFlow
+#    summary: Consectetur, Adipiscing, Elit
 
-- type: experience
-  name: 经验
+- type: paper
+  name: 论文
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: [1] 基于RISC-V架构的强化学习容器化方法研究
+    sub: 徐子晨,崔傲,王玉皞,刘韬（导师一作，本人二作）
+    duration: "2021,43(02):266-273.
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+    - 计算机工程与科学（CCF C类，北大中文核心）
+    summary: 虚拟化/强化学习/RISC-V
+    detail: 讨论在资源受限的RISC-V架构上的强化学习虚拟化问题。首先,通过采用容器化技术减少上层软件构建虚拟化代价,去除冗余中间件,定制命名空间隔离特定进程,有效提升学习任务资源利用率,实现模型训练快速执行;其次,利用RISC-V指令集的特征进一步优化上层神经网络模型,提高强化学习效率;最后,实现整体优化和容器化方法系统原型,并通过多种基准测试集完成系统原型性能评估。容器化技术和传统RISC-V架构下交叉编译深度神经网络模型的方法相比,仅付出相对较小的额外性能代价,能快速实现更多、更复杂的深度学习软件框架的部署及运行;与Hypervisor虚拟机方法相比,基于RISC-V的模型具有近似的部署时间,并大量减少了性能损失。
     # open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
+  - title: [2] Power-Aware Throughput Control for Containerized Relational Operation
+    sub: Zichen Xu, Gele Bai, Ao Cui, Shasha Wang （导师一作，本人三作+主写）
+    duration: "2021（已录用）"
     tags: 
-    - tagname
+    - CCF Transactions on High Performance Computing
     summary: Summary your job or work. (Collapse)
     detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+  - title: [3] Approximation Operation-level Approximation for DNN in RISC-V Instruction Set (Poster)
+    sub: 崔傲，徐子晨
+    duration: "2019年"
+    tags:
+    - 2019 ChinaSys, Zhuhai
+    summary: 待补充
+    detail: 待补充
+    
 - type: projects
-  name: Projects
+  name: 项目经验
   content:
   - title: 项目名称
     duration: xxxx年xx月 - yyyy年yy月
