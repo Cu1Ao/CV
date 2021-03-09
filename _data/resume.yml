@@ -56,7 +56,7 @@ main: #简历主要内容，
 - type: paper
   name: 论文
   content:
-  - title: "[1] 基于RISC-V架构的强化学习容器化方法研究"
+  - title: 基于RISC-V架构的强化学习容器化方法研究
     sub: 徐子晨,崔傲,王玉皞,刘韬（导师一作，本人二作）
     duration: "2021,43(02):266-273.
     tags:
